@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f5f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  .logo {
+    max-width: 225px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    margin-top: 0;
+    color: #3a7d72;
+  }
+  .input-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #d3eae7;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  .input-group .icon {
+    font-size: 18px;
+  }
+  .input-group input {
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+  }
+  .forgot {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 10px;
+    color: blue;
+    text-decoration: none;
+  }
+  button {
+    background-color: #b3e2d8;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .cardapio {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  .refeicao-opcoes {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    gap: 10px;
+  }
+  .refeicao-opcoes div {
+    background-color: #f0f8f7;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  footer nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  footer span {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
