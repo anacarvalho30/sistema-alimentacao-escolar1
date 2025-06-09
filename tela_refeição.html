@@ -10,12 +10,14 @@
   <div class="container">
     <img src="image/logo_tcc.jpeg" alt="Logo Menu Inteligente" class="logo">
     <h2>Refeição do Aluno</h2>
+
     <label for="refeicao">Refeição:</label>
     <select id="refeicao">
       <option>Café da Manhã</option>
       <option>Almoço</option>
       <option>Lanche</option>
     </select>
+
     <div class="refeicao-opcoes">
       <div>
         🥪 <br>
@@ -34,7 +36,10 @@
         <label><input type="radio" name="fruta" checked> NÃO</label>
       </div>
     </div>
-    <button type="submit">Enviar</button>
+
+    <button id="btnEnviar" type="submit">Enviar</button>
+    <p id="mensagemEnvio" style="margin-top: 10px; color: green;"></p>
+
     <footer>
       <nav>
         <span>☰</span>
@@ -43,5 +48,12 @@
       </nav>
     </footer>
   </div>
+
+  <script>
+    document.getElementById("btnEnviar").addEventListener("click", function(event) {
+      event.preventDefault();
+      document.getElementById("mensagemEnvio").innerText = "Refeição enviada com sucesso!";
+    });
+  </script>
 </body>
 </html>
